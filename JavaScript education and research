@@ -1,0 +1,15 @@
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    gap: 10px;
+}
+
+.element {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.element:hover {
+    background-color: #f0f0f0;
+}
